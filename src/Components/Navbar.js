@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <h1>Navbar</h1>
+    <h1 className='fixed'>Navbar</h1>
   )
 }
 

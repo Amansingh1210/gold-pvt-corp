@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar'
 import Slider from './Components/Slider'
 import Products from './Components/Products'
 import Banner from './Components/Banner'
+import Gallery from './Components/Gallery'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Slider />
       <Products />
       <Banner />
+      <Gallery />
     </>
   )
 }
