@@ -74,3 +74,26 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   /* Increase shadow on hover */
 }
+.text-hover:hover{
+  color: #2196f3;
+}
+
+.about{
+  height: 100px;
+  background: #797878;
+}
+
+.list-none{
+  list-style: none;
+  text-decoration: none;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.about-text{
+  color: #606060;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  line-height: 1.9;
+}

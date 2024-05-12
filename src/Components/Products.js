@@ -11,7 +11,7 @@ function Products() {
             const { id, name, desc, url, capacity } = banner
             return <div key={id} className="card col-md-3 shadow-sm shadow-lg-hover custom-hover">
              <button className="cap-btn btn-primary">{capacity}</button>
-              <img src={url} className="card-img-top mt-3" alt="..."/>
+              <img src={url} className="card-img-top mt-3 " alt="..."/>
                   <div className="card-body">
                       <h5 className="card-title">{name}</h5>
                       <p className="card-text">{desc}</p>
