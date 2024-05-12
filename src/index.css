@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
 .prev{
   background-color: rgb(54, 54, 54);
   transition:  ease-in-out .2s;
@@ -14,9 +21,21 @@
 .next:hover{
   background-color: black;
 }
-/* .prev{
-  display: hidde;
+
+.card{
+  width: 400px;
 }
-.carousel:hover .prev{
-  display: flex;
-} */
+.underline {
+  border-bottom: 1px solid #000;
+  /* Change color and thickness as needed */
+}
+
+.cap-btn{
+  border: none;
+  background: #4CAF50;
+  padding: 5px;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  z-index: 1;
+}

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import {banners} from '../App'
+import banners from '../Data/banners'
 
 function Slider() {
     const [showButton,setShowButton] = useState(true)
