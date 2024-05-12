@@ -10,12 +10,12 @@ function Products() {
           {products.map((banner)=>{
             const { id, name, desc, url, capacity } = banner
            return <div key={id} className="card col-md-3">
-             <button class="cap-btn btn-primary">{capacity}</button>
+             <button className="cap-btn btn-primary">{capacity}</button>
               <img src={url} className="card-img-top mt-3" alt="..."/>
                   <div className="card-body">
                       <h5 className="card-title">{name}</h5>
                       <p className="card-text">{desc}</p>
-                      <a href='#' className="btn btn-primary">Read more</a>
+                      <button href='#' className="button">Read more</button>
                   </div>
           </div>
           })};

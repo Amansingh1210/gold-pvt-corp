@@ -39,3 +39,22 @@
   left: 20px;
   z-index: 1;
 }
+
+.button{
+  width: 130px;
+  height: 45px;
+  color: white;
+  background-color: #2196f3;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 25px;
+}
+
+.button:hover{
+  background-color: #606060;
+}
+
+.about-banner{
+  background-image: url('./Data/images/about_banner.jpg');
+  background-size: contain;
+}
