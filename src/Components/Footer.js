@@ -9,8 +9,8 @@ import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <>
-      <footer className="footer-container">
-        <div className="container-fluid f1-container">
+      <footer className="">
+        <div className="container-fluid py-5 f1-container">
           <div className="container d-flex justify-content-around">
             <div className="column1">
               <h5 className="widget-title ">
@@ -35,7 +35,7 @@ const Footer = () => {
               <ul className="thumbnail-widget">
                 <li className="d-flex p-2">
                   <div className="thumb-img">
-                    <img src={prod1} alt="" className="footer-img"/>
+                    <img src={prod1} alt="" className="footer-img" />
                   </div>
                   <div className="thumb-content">
                     <a href="#" title="Civil Engineering">
@@ -50,7 +50,7 @@ const Footer = () => {
                 </li>
                 <li className="d-flex p-2">
                   <div className="thumb-img">
-                    <img src={prod2} alt="" className="footer-img"/>
+                    <img src={prod2} alt="" className="footer-img" />
                   </div>
                   <div className="thumb-content">
                     <a href="#" title="Computer science">
@@ -65,7 +65,7 @@ const Footer = () => {
                 </li>
                 <li className="d-flex p-2">
                   <div className="thumb-img">
-                    <img src={prod3} alt="" className="footer-img"/>
+                    <img src={prod3} alt="" className="footer-img" />
                   </div>
                   <div className="thumb-content">
                     <a href="#" title="Sociology">
