@@ -2,6 +2,7 @@
 import prod1 from "../Data/images/chemistry_facts.jpg";
 import prod2 from "../Data/images/Chemical_Analysis.jpg";
 import prod3 from "../Data/images/chemical_bonding.jpg";
+import { Link } from "react-router-dom";
 // import { IoLocation } from "react-icons/io5";
 // import { FaPhoneAlt } from "react-icons/fa";
 // import { MdOutlinePhoneIphone } from "react-icons/md";
@@ -38,9 +39,9 @@ const Footer = () => {
                     <img src={prod1} alt="" className="footer-img" />
                   </div>
                   <div className="thumb-content">
-                    <a href="#" title="Civil Engineering">
+                    <Link to="/" title="Civil Engineering">
                       COMPRESSION TESTING MACHINE{" "}
-                    </a>
+                    </Link>
                     <br />
                     <span className="span-color">
                       {" "}
@@ -53,9 +54,9 @@ const Footer = () => {
                     <img src={prod2} alt="" className="footer-img" />
                   </div>
                   <div className="thumb-content">
-                    <a href="#" title="Computer science">
+                    <Link to="/" title="Computer science">
                       PELTON WHEEL TURBINE TEST RIG{" "}
-                    </a>
+                    </Link>
                     <br></br>
                     <span className="span-color">
                       {" "}
@@ -68,9 +69,9 @@ const Footer = () => {
                     <img src={prod3} alt="" className="footer-img" />
                   </div>
                   <div className="thumb-content">
-                    <a href="#" title="Sociology">
+                    <Link to="/" title="Sociology">
                       REFRIGERATION TEST RIG{" "}
-                    </a>
+                    </Link>
                     <br></br>
                     <span className="span-color">
                       {" "}
@@ -117,9 +118,9 @@ const Footer = () => {
               <div className="col-md-4 ">
                 <p className="f2-para">
                   "Powered By "
-                  <a href="http://www.thenetlinker.com" target="_blank">
+                  <Link to="http://www.thenetlinker.com" >
                     NetLinker
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>

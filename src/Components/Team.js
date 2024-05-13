@@ -23,7 +23,7 @@ function Team() {
           <div className='container d-md-flex gap-5 mt-5'>
               <div className='position-relative '>
                   <button className="cap-btn btn-primary">Our Team</button>
-                  <img src={teamProfile} className='img-fluid'/>
+                  <img src={teamProfile} className='img-fluid' alt='team'/>
               </div>
               <div className='team-details'>
                   <div className='main-team'>

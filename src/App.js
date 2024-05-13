@@ -1,4 +1,6 @@
 import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+// import PrivateRoute from './Components/PrivateRoute'
 import Navbar from './Components/Navbar'
 import Slider from './Components/Slider'
 import Products from './Components/Products'
@@ -12,15 +14,20 @@ import Mission from './Components/Mission'
 function App() {
   return (
     <>
-      <Navbar />
-      <Slider />
-      <Products />
-      <Banner />
-      <Gallery />
-      {/* <About /> */}
-      {/* <Team /> */}
-      <Mission />
-      <Footer />
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={
+          <div>
+            <Slider />
+            <Products />
+            <Banner />
+            <Gallery />
+          </div>
+          } />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }

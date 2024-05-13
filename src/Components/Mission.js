@@ -20,7 +20,7 @@ function Mission() {
               <div className="banner-underline"></div>
           </div>
           <div className='container mt-5'>
-                <img src={missionImg} className='img-fluid' />
+                <img src={missionImg} className='img-fluid' alt='mission'/>
           </div>
           <div className='container '>
               <h1 className='text-uppercase'>Vission & Mission</h1>
