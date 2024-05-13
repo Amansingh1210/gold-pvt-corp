@@ -26,7 +26,11 @@
   width: 400px;
 }
 .underline {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #000000;
+  /* Change color and thickness as needed */
+}
+.banner-underline {
+  border-bottom: 1px solid #ffffff;
   /* Change color and thickness as needed */
 }
 
@@ -107,4 +111,7 @@
 }
 .overflow-hidden{
   overflow-y: hidden;
+}
+.gap{
+  gap: 5rem;
 }

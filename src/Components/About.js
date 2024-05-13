@@ -15,7 +15,7 @@ function About() {
                         </ol>
                     </nav>
                 </div>
-                <div className="container underline"></div>
+                <div className="container banner-underline"></div>
             </div>
             <div className='container d-md-flex gap-5 mt-5'>
                 <div className='position-relative'>

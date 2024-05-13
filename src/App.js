@@ -8,6 +8,7 @@ import About from './Components/About'
 import Footer from './Components/Footer'
 import Team from './Components/Team'
 import Mission from './Components/Mission'
+import Certifications from './Components/Certifications'
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <Gallery /> */}
       {/* <About /> */}
       {/* <Team /> */}
-      <Mission />
+      {/* <Mission /> */}
+      <Certifications />
       <Footer />
     </>
   )

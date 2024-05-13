@@ -17,7 +17,7 @@ function Mission() {
                       </ol>
                   </nav>
               </div>
-              <div className="underline"></div>
+              <div className="banner-underline"></div>
           </div>
           <div className='container mt-5'>
                 <img src={missionImg} className='img-fluid' />
