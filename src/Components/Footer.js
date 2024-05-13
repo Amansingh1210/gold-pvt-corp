@@ -2,10 +2,10 @@
 import prod1 from "../Data/images/chemistry_facts.jpg";
 import prod2 from "../Data/images/Chemical_Analysis.jpg";
 import prod3 from "../Data/images/chemical_bonding.jpg";
-import { IoLocation } from "react-icons/io5";
-import { FaPhoneAlt } from "react-icons/fa";
-import { MdOutlinePhoneIphone } from "react-icons/md";
-import { MdEmail } from "react-icons/md";
+// import { IoLocation } from "react-icons/io5";
+// import { FaPhoneAlt } from "react-icons/fa";
+// import { MdOutlinePhoneIphone } from "react-icons/md";
+// import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <>
@@ -86,25 +86,25 @@ const Footer = () => {
               <div className="text-widget">
                 <p className="f-para">Universal Engineering Equipments Corp.</p>
                 <p className="f-para">
-                  <IoLocation /> &nbsp; Sales Office: 146 Sec-9 Awas Vikas
+                  {/* <IoLocation /> &nbsp; Sales Office: 146 Sec-9 Awas Vikas */}
                   Colony, Sikandra, Agra-282007 (U.P.)
                 </p>
                 <p className="f-para">
-                  <IoLocation /> &nbsp; Branch Office: 302,7-1-275 AMRAVATI
+                  {/* <IoLocation /> &nbsp; Branch Office: 302,7-1-275 AMRAVATI */}
                   RESIDENCY OPP YALLAMA TEMPLE BALKAMPET SECUNDERBAD
                 </p>
                 <p className="f-para">
                   {" "}
-                  <FaPhoneAlt />
+                  {/* <FaPhoneAlt /> */}
                   &nbsp;Phone Number : 0562-3590517
                 </p>
                 <p className="f-para">
                   {" "}
-                  <MdOutlinePhoneIphone />
+                  {/* <MdOutlinePhoneIphone /> */}
                   &nbsp;Mobile Number : +91-8171410007
                 </p>
                 <p className="f-para">
-                  <MdEmail /> &nbsp;Email - rht_uppal@rediffmail.com
+                  {/* <MdEmail /> &nbsp;Email - rht_uppal@rediffmail.com */}
                 </p>
                 <p className="f-para"></p>
               </div>
