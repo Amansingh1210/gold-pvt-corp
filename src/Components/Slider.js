@@ -11,7 +11,7 @@ function Slider() {
                         return <div key={index} className="carousel-item active">
                             <img src={index} className="d-block w-100" alt="..." />
                             <div className="carousel-caption ">
-                                <p className='text-1 sm-hidden'>00125:002 certified</p>
+                                <p className='text-1 sm-hidden'> ISO 9001:2000 certified </p>
                                 <h3 className='text-2 sm-hidden'>Universal</h3>
                                 <h3 className='text-3 sm-hidden'>Engineering Equipments Corp.</h3>
                                 <p className='text-4 sm-hidden'> Opening up the world class products</p>

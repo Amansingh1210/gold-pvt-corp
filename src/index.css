@@ -6,6 +6,11 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.fix-img{
+  width: 320px;
+  height: 200px;
+  object-fit: cover;
+}
 
 @media (max-width: 767px) {
   .sm-hidden {

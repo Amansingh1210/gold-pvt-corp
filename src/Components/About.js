@@ -1,7 +1,9 @@
 import React from 'react';
 import profile from '../Data/images/aboutUsProfile.jpg';
+import { useNavigate } from 'react-router-dom';
 
 function About() {
+    const nav = useNavigate();
     return (
         <main className='d-flex flex-column gap-5'>
             <div className='fluid-container bg-dark text-center text-white py-5 px-5'>
@@ -9,7 +11,7 @@ function About() {
                     <h1>About Us</h1>
                     <nav>
                         <ol className="list-none d-flex gap-3 align-items-center cursor-pointer">
-                            <li className="fs-4 text-hover">Home</li>
+                            <li className="fs-4 text-hover" onClick={() => nav('/')}>Home</li>
                             <li className="">/</li>
                             <li className="fs-5 text-hover">About us</li>
                         </ol>

@@ -29,12 +29,12 @@ const Footer = () => {
                 Popular Products
                 <span></span>
               </h4>
-              <ul className="thumbnail-widget">
-                <li className="d-flex p-2">
+              <ul className="thumbnail-widget ">
+                <li className="d-flex p-2 ">
                   <div className="thumb-img">
                     <img src={prod1} alt="" className="footer-img" />
                   </div>
-                  <div className="thumb-content">
+                  <div className="thumb-content list-dec">
                     <Link to="/" title="Civil Engineering">
                       COMPRESSION TESTING MACHINE{" "}
                     </Link>

@@ -1,7 +1,9 @@
 import React from 'react'
 import products from '../Data/products'
+import { useNavigate } from 'react-router-dom';
 
 function Products() {
+  const nav = useNavigate();
   return (
     <main className='container my-5'>
       <p className='text-center fs-1'>Our Featured Product</p>
@@ -15,7 +17,7 @@ function Products() {
                   <div className="card-body">
                       <h5 className="card-title">{name}</h5>
                       <p className="card-text">{desc}</p>
-                      <button href='#' className="button">Read more</button>
+                      <button onClick={() => nav('/')} className="button">Read more</button>
                   </div>
           </div>
           })};

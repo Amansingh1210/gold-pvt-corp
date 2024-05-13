@@ -12,6 +12,8 @@ import Mission from './Components/Mission'
 import Laboratory from './Components/Laboratory'
 import Certifications from './Components/Certifications'
 import laboratory from './Data/laboratory';
+import Quality from './Components/Quality'
+import Contact from './Components/Contact'
 
 function App() {
   const [currentId,setCurrentId] =useState(0)
@@ -35,6 +37,8 @@ function App() {
           <Route path='/mission' element={<Mission />} />
           <Route path='/team' element={<Team />} />
           <Route path='/certifications' element={<Certifications />} />
+          <Route path='/quality' element={<Quality />} />
+          <Route path='/contact' element={<Contact />} />
           <Route path='/lab' element={<Laboratory currentId={currentId}/>} />
         </Routes>
         <Footer />

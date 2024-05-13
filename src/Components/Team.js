@@ -1,7 +1,10 @@
 import React from 'react'
 import teamProfile from '../Data/images/ourteam.jpg'
+import { useNavigate } from 'react-router-dom';
 
 function Team() {
+    const nav = useNavigate();
+
   return (
       <main className='d-flex flex-column gap-4'>
           <div className='fluid-contanier bg-dark text-center text-white py-5 px-5'>
@@ -22,7 +25,7 @@ function Team() {
           </div>
           <div className='container d-md-flex gap-5 mt-5'>
               <div className='position-relative '>
-                  <button className="cap-btn btn-primary">Our Team</button>
+                  <button className="cap-btn btn-primary" onClick={() => nav('/')}>Our Team</button>
                   <img src={teamProfile} className='img-fluid' alt='team'/>
               </div>
               <div className='team-details'>

@@ -1,7 +1,9 @@
 import React from 'react'
 import missionImg from '../Data/images/missionvission.jpg'
+import { useNavigate } from 'react-router-dom';
 
 function Mission() {
+    const nav = useNavigate();
   return (
       <main className='d-flex flex-column gap-4'>
           <div className='fluid-contanier bg-dark text-center text-white py-5 px-5'>
@@ -11,7 +13,7 @@ function Mission() {
                   </div>
                   <nav>
                       <ol className="list-none d-flex gap-3 align-items-center cursor-pointer">
-                          <li className="fs-4 text-hover">Home</li>
+                          <li className="fs-4 text-hover" onClick={() => nav('/')}>Home</li>
                           <li className="">/</li>
                           <li className="fs-4 text-hover">Vission & Mission</li>
                       </ol>
