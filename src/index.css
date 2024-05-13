@@ -60,7 +60,7 @@
 }
 
 .contain{
-  background-size: contain;
+  background-size: cover;
 }
 
 .custom-hover {
@@ -79,8 +79,8 @@
 }
 
 .about{
-  height: 100px;
-  background: #797878;
+  height: 100%;
+  width: 100%;
 }
 
 .list-none{
@@ -96,4 +96,15 @@
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
   line-height: 1.9;
+}
+
+.team-h{
+    font-size: 21px;
+    font-weight: 700;
+    color: #606060;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.9;
+}
+.overflow-hidden{
+  overflow-y: hidden;
 }

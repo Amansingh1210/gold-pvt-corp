@@ -6,6 +6,7 @@ import Banner from './Components/Banner'
 import Gallery from './Components/Gallery'
 import About from './Components/About'
 import Footer from './Components/Footer'
+import Team from './Components/Team'
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <Products /> */}
       {/* <Banner /> */}
       {/* <Gallery /> */}
-      <About />
+      {/* <About /> */}
+      <Team />
       <Footer />
     </>
   )
