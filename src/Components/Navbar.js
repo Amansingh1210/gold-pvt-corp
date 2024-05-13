@@ -119,17 +119,17 @@ const Navbar = ({ products , getId }) => {
             </ul>
             <ul className="d-flex justify-content-evenly">
               <li className="dot p-2">
-                <Link to="" className="link-hover fs-3 link-color ">
+                <Link to="https://www.google.com/" target="blank" className="link-hover fs-3 link-color ">
                   <TiSocialGooglePlus />
                 </Link>
               </li>
               <li className="dot p-2">
-                <Link to="" className="link-hover fs-3  link-color">
+                <Link to="https://www.facebook.com/" target="blank" className="link-hover fs-3  link-color">
                   <FaFacebook />
                 </Link>
               </li>
               <li className="dot p-2">
-                <Link to="" className="link-hover fs-3  link-color">
+                <Link to="https://twitter.com/" target="blank" className="link-hover fs-3  link-color">
                   <FaTwitter />
                 </Link>
               </li>
