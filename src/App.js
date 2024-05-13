@@ -8,23 +8,21 @@ import About from './Components/About'
 import Footer from './Components/Footer'
 import Team from './Components/Team'
 import Mission from './Components/Mission'
-import Certifications from './Components/Certifications'
 
 function App() {
   return (
     <>
       <Navbar />
-      {/* <Slider /> */}
-      {/* <Products /> */}
-      {/* <Banner /> */}
-      {/* <Gallery /> */}
+      <Slider />
+      <Products />
+      <Banner />
+      <Gallery />
       {/* <About /> */}
       {/* <Team /> */}
-      {/* <Mission /> */}
-      <Certifications />
+      <Mission />
       <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
