@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/goldsys-pvt-corp/static/css/main.5b506f1b.css",
+    "main.js": "/goldsys-pvt-corp/static/js/main.f0f01eb6.js",
+    "static/js/453.bfe0d51a.chunk.js": "/goldsys-pvt-corp/static/js/453.bfe0d51a.chunk.js",
+    "static/media/banner1.jpg": "/goldsys-pvt-corp/static/media/banner1.489a0b11b8bd2fb9cb94.jpg",
+    "static/media/about_banner.jpg": "/goldsys-pvt-corp/static/media/about_banner.c1291b697287fca77a95.jpg",
+    "static/media/banner3.jpg": "/goldsys-pvt-corp/static/media/banner3.56eb18c3b2de4199cd03.jpg",
+    "static/media/banner2.jpg": "/goldsys-pvt-corp/static/media/banner2.8a081d390e1e13c46eb2.jpg",
+    "static/media/ourteam.jpg": "/goldsys-pvt-corp/static/media/ourteam.ffad6f52b609ef306373.jpg",
+    "static/media/missionvission.jpg": "/goldsys-pvt-corp/static/media/missionvission.b02bb7447298265522a8.jpg",
+    "static/media/aboutUsProfile.jpg": "/goldsys-pvt-corp/static/media/aboutUsProfile.d63f0ee8cf8f8dc3ee20.jpg",
+    "static/media/chemical_bonding.jpg": "/goldsys-pvt-corp/static/media/chemical_bonding.c72d6b6321559fb6c8c2.jpg",
+    "static/media/Chemical_Analysis.jpg": "/goldsys-pvt-corp/static/media/Chemical_Analysis.f798f60d53b8a90ca3c1.jpg",
+    "static/media/cert1.jpg": "/goldsys-pvt-corp/static/media/cert1.0e9b11f417ad94900293.jpg",
+    "static/media/chemistry_facts.jpg": "/goldsys-pvt-corp/static/media/chemistry_facts.246ac858f9a698445aaf.jpg",
+    "static/media/cert3.jpg": "/goldsys-pvt-corp/static/media/cert3.59fa73cab39fed18a8c2.jpg",
+    "static/media/gallery6.jpg": "/goldsys-pvt-corp/static/media/gallery6.913dfc8d55b57f2e7446.jpg",
+    "static/media/gallery4.jpg": "/goldsys-pvt-corp/static/media/gallery4.e2740c0612820677dc6b.jpg",
+    "static/media/gallery2.jpg": "/goldsys-pvt-corp/static/media/gallery2.b342b2b1569b2fa4b796.jpg",
+    "static/media/cert2.jpg": "/goldsys-pvt-corp/static/media/cert2.b4ee5df3d4302e87e97d.jpg",
+    "static/media/quality.jpg": "/goldsys-pvt-corp/static/media/quality.9d8598ce5307f8612fe0.jpg",
+    "static/media/gallery3.jpg": "/goldsys-pvt-corp/static/media/gallery3.8865d4ac260a27f06188.jpg",
+    "static/media/gallery5.jpg": "/goldsys-pvt-corp/static/media/gallery5.76d1413e8a2b694a8df0.jpg",
+    "static/media/gallery1.jpg": "/goldsys-pvt-corp/static/media/gallery1.1a16d6cba69388c44ebf.jpg",
+    "index.html": "/goldsys-pvt-corp/index.html",
+    "main.5b506f1b.css.map": "/goldsys-pvt-corp/static/css/main.5b506f1b.css.map",
+    "main.f0f01eb6.js.map": "/goldsys-pvt-corp/static/js/main.f0f01eb6.js.map",
+    "453.bfe0d51a.chunk.js.map": "/goldsys-pvt-corp/static/js/453.bfe0d51a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b506f1b.css",
+    "static/js/main.f0f01eb6.js"
+  ]
+}
