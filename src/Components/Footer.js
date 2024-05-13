@@ -10,9 +10,9 @@ const Footer = () => {
   return (
     <>
       <footer className="">
-        <div className="container-fluid py-5 f1-container">
-          <div className="container d-flex justify-content-around">
-            <div className="column1">
+        <div className="py-4 f1-container container-fluid">
+          <div className="row d-md-flex gap-4">
+            <div className="p-5 col-md-3">
               <h5 className="widget-title ">
                 <img src="" alt="" className="size-img" />
                 <span></span>
@@ -27,7 +27,7 @@ const Footer = () => {
               </p>
             </div>
 
-            <div className="column1">
+            <div className=" p-5 col-md-3">
               <h4 className="widget-title ">
                 Popular Products
                 <span></span>
@@ -81,7 +81,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="column1">
+            <div className="p-5 col-md-3">
               <h4 className="widget-title ">Contact Details</h4>
               <div className="text-widget">
                 <p className="f-para">Universal Engineering Equipments Corp.</p>
@@ -114,7 +114,7 @@ const Footer = () => {
         <div className="container-fluid f2-container">
           <div className="container text-center">
             <div className="row">
-              <div className="col-md-4 ">
+              <div className="col-md-3 ">
                 <p className="f2-para">
                   "Powered By "
                   <a href="http://www.thenetlinker.com" target="_blank">

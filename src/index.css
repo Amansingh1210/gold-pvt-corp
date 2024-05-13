@@ -1,28 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: "Roboto Condensed", sans-serif;
 }
-.prev{
+.prev {
   background-color: rgb(54, 54, 54);
-  transition:  ease-in-out .2s;
-  
+  transition: ease-in-out 0.2s;
 }
-.prev:hover{
+.prev:hover {
   background-color: black;
 }
-.next{
+.next {
   background-color: rgb(54, 54, 54);
-  transition: ease-in-out .2s;
-
+  transition: ease-in-out 0.2s;
 }
-.next:hover{
+.next:hover {
   background-color: black;
 }
 
-.card{
+.card {
   width: 400px;
 }
 .underline {
@@ -30,9 +28,9 @@
   /* Change color and thickness as needed */
 }
 
-.cap-btn{
+.cap-btn {
   border: none;
-  background: #4CAF50;
+  background: #4caf50;
   padding: 5px;
   position: absolute;
   top: 25px;
@@ -40,7 +38,7 @@
   z-index: 1;
 }
 
-.button{
+.button {
   width: 130px;
   height: 45px;
   color: white;
@@ -50,16 +48,16 @@
   padding: 10px 25px;
 }
 
-.button:hover{
+.button:hover {
   background-color: #606060;
 }
 
-.about-banner{
-  background-image: url('./Data/images/about_banner.jpg');
+.about-banner {
+  background-image: url("./Data/images/about_banner.jpg");
   background-size: contain;
 }
 
-.contain{
+.contain {
   background-size: cover;
 }
 
@@ -74,41 +72,40 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   /* Increase shadow on hover */
 }
-.text-hover:hover{
+.text-hover:hover {
   color: #2196f3;
 }
 
-.about{
+.about {
   height: 100%;
   width: 100%;
 }
 
-.list-none{
+.list-none {
   list-style: none;
   text-decoration: none;
 }
-.cursor-pointer{
+.cursor-pointer {
   cursor: pointer;
 }
 
-.about-text{
+.about-text {
   color: #606060;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   line-height: 1.9;
 }
 
-.team-h{
-    font-size: 21px;
-    font-weight: 700;
-    color: #606060;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.9;
+.team-h {
+  font-size: 21px;
+  font-weight: 700;
+  color: #606060;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.9;
 }
-.overflow-hidden{
+.overflow-hidden {
   overflow-y: hidden;
 }
-
 
 /* footer  */
 
@@ -123,14 +120,9 @@
 }
 .f2-container {
   background-color: rgb(34, 34, 34);
-  height: 20%;
-  width: 100%;
 }
 .f1-para {
   color: rgb(228, 217, 217);
-  width: 90%;
-  height: 40%;
-  margin: 40px 5px;
 }
 .f2-para {
   color: white;
@@ -154,11 +146,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.column1 {
-  margin: 5px 20px;
-  width: 40%;
-}
-.footer-img { 
+.footer-img {
   display: inline-block;
   max-width: 60px;
 }
