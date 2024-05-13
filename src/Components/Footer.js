@@ -3,17 +3,13 @@ import prod1 from "../Data/images/chemistry_facts.jpg";
 import prod2 from "../Data/images/Chemical_Analysis.jpg";
 import prod3 from "../Data/images/chemical_bonding.jpg";
 import { Link } from "react-router-dom";
-// import { IoLocation } from "react-icons/io5";
-// import { FaPhoneAlt } from "react-icons/fa";
-// import { MdOutlinePhoneIphone } from "react-icons/md";
-// import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <>
       <footer className="">
-        <div className="container-fluid py-5 f1-container">
-          <div className="container d-flex justify-content-around">
-            <div className="column1">
+        <div className="container-fluid py-4 f1-container">
+          <div className="row d-md-flex gap-4">
+            <div className="p-5 col-md-3">
               <h5 className="widget-title ">
                 <img src="" alt="" className="size-img" />
                 <span></span>
@@ -28,7 +24,7 @@ const Footer = () => {
               </p>
             </div>
 
-            <div className="column1">
+            <div className="p-5 col-md-3">
               <h4 className="widget-title ">
                 Popular Products
                 <span></span>
@@ -82,30 +78,30 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="column1">
+            <div className="p-5 col-md-3">
               <h4 className="widget-title ">Contact Details</h4>
               <div className="text-widget">
                 <p className="f-para">Universal Engineering Equipments Corp.</p>
                 <p className="f-para">
-                  {/* <IoLocation /> &nbsp; Sales Office: 146 Sec-9 Awas Vikas */}
+                  <i className="fa-solid fa-location-dot"></i> &nbsp; Sales Office: 146 Sec-9 Awas Vikas
                   Colony, Sikandra, Agra-282007 (U.P.)
                 </p>
                 <p className="f-para">
-                  {/* <IoLocation /> &nbsp; Branch Office: 302,7-1-275 AMRAVATI */}
+                  <i className="fa-solid fa-location-dot"></i> &nbsp; Branch Office: 302,7-1-275 AMRAVATI
                   RESIDENCY OPP YALLAMA TEMPLE BALKAMPET SECUNDERBAD
                 </p>
                 <p className="f-para">
                   {" "}
-                  {/* <FaPhoneAlt /> */}
+                  <i className="fa-solid fa-phone"></i>
                   &nbsp;Phone Number : 0562-3590517
                 </p>
                 <p className="f-para">
                   {" "}
-                  {/* <MdOutlinePhoneIphone /> */}
+                  <i className="fa-solid fa-phone"></i>
                   &nbsp;Mobile Number : +91-8171410007
                 </p>
                 <p className="f-para">
-                  {/* <MdEmail /> &nbsp;Email - rht_uppal@rediffmail.com */}
+                  <i className="fa-solid fa-envelope"></i> &nbsp;Email - rht_uppal@rediffmail.com
                 </p>
                 <p className="f-para"></p>
               </div>

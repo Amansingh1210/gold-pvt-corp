@@ -5,6 +5,43 @@
   padding: 0;
   font-family: "Roboto Condensed", sans-serif;
 }
+
+
+@media (max-width: 767px) {
+  .sm-hidden {
+    display: none;
+  }
+  .img-about{
+    display: none;
+  }
+}
+
+.nav-h {
+  height: 105px;
+  background-color: rgb(253, 253, 253);
+}
+
+.nav-logo {
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+.logo-font {
+  font-size: 10px;
+}
+
+.link-color {
+  color: #000;
+}
+
+.link-hover:hover {
+  color: rgb(33, 150, 243);
+}
+
+.dot {
+  list-style: none;
+}
+
 .prev{
   background-color: rgb(54, 54, 54);
   transition:  ease-in-out .2s;
@@ -60,7 +97,8 @@
 
 .about-banner{
   background-image: url('./Data/images/about_banner.jpg');
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .contain{
@@ -109,9 +147,7 @@
     font-family: 'Roboto', sans-serif;
     line-height: 1.9;
 }
-.overflow-hidden{
-  overflow-y: hidden;
-}
+
 /* footer  */
 
 .widget-title {
@@ -284,4 +320,62 @@
   color: #3c763d;
   background-color: #dff0d8;
   border-color: #d6e9c6;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.logo-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-blue{
+  /* background: #2196F3; */
+  background: #ffffff;
+}
+.nav-h {
+  height: 100px;
+  background-color: rgb(253, 253, 253);
+}
+
+.nav-logo {
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+.logo-font {
+  font-size: 12px;
+}
+
+.custom-bg {
+  padding-left: 15px;
+  /* background: #868181; */
+}
+
+.logo-color {
+  color: #2196F3ff;
+}
+
+.logo-c {
+  color: #000000;
+}
+
+.link-color {
+  color: rgb(0, 0, 0);
+}
+
+.link-hover:hover {
+  color: rgb(33, 150, 243);
+}
+
+.dot {
+  list-style: none;
+  text-decoration: none;
+}
+
+.link-color-hover:hover {
+  color: white;
+  background-color: #2196f3;
 }

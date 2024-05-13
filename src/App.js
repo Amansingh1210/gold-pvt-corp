@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './Components/Navbar'
 import Slider from './Components/Slider'
@@ -10,12 +10,18 @@ import Footer from './Components/Footer'
 import Team from './Components/Team'
 import Mission from './Components/Mission'
 import Laboratory from './Components/Laboratory'
+import Certifications from './Components/Certifications'
+import laboratory from './Data/laboratory';
 
 function App() {
+  const [currentId,setCurrentId] =useState(0)
+  const getId = (e) => {
+    setCurrentId(e.target.id)
+  }
   return (
     <>
       <BrowserRouter>
-        <Navbar />
+        <Navbar products={laboratory} getId={getId} />
         <Routes>
           <Route path="/" element={
           <div>
@@ -28,7 +34,8 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/mission' element={<Mission />} />
           <Route path='/team' element={<Team />} />
-          <Route path='/lab' element={<Laboratory />} />
+          <Route path='/certifications' element={<Certifications />} />
+          <Route path='/lab' element={<Laboratory currentId={currentId}/>} />
         </Routes>
         <Footer />
       </BrowserRouter>

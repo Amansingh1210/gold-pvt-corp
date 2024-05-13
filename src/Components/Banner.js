@@ -1,5 +1,4 @@
 import React from 'react'
-import aboutBanner from '../Data/images/about_banner.jpg'
 
 function Banner() {
   return (

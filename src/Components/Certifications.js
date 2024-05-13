@@ -22,7 +22,7 @@ function Certifications() {
           <div className='container d-md-flex my-5 gap '>
             {certificates.map((index)=>{
                 console.log(index);
-              return <img src={index} className='img-fluid my-5' key={index} />
+              return <img src={index} alt='certificates' className='img-fluid my-5' key={index} />
             })}
           </div>
       </main>

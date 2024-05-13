@@ -1,29 +1,29 @@
 import React from 'react'
-import { Navigate, useNavigate } from 'react-router-dom'
+import {  useNavigate } from 'react-router-dom'
 import  laboratory  from '../Data/laboratory';
-// import 
 
-const labId = 8
 
-function Laboratory() {
-    // const nav = Navigate()
+
+function Laboratory({currentId}) {
     const nav = useNavigate();
-  return (
-    <>
-    {laboratory.map((lab)=>{
+
+    const filteredObject = laboratory.filter(obj => obj.id == currentId);
+    console.log(filteredObject);
+    return (
+        <>
+            {filteredObject.map((lab)=>{
         const {id,name,items} = lab
-        if(id === labId){
-      return <main key={id} className='d-flex flex-column gap-4'>
+      return <main key={id} className='d-flex flex-column gap-4 '>
           <div className='fluid-contanier bg-dark text-center text-white py-5 px-5'>
               <div className='d-flex flex-row justify-content-between align-items-center '>
                   <div>
-                      <h1>{name}</h1>
+                      <h1 className='uppercase'>{name}</h1>
                   </div>
                   <nav>
                       <ol className="list-none d-flex gap-3 align-items-center cursor-pointer">
                           <li className="fs-4 text-hover" onClick={()=>nav('/')}>Home</li>
                           <li className="">/</li>
-                          <li className="fs-4 text-hover">{name}</li>
+                          <li className="fs-4 text-hover ">{name}</li>
                       </ol>
                   </nav>
               </div>
@@ -32,7 +32,7 @@ function Laboratory() {
           </div>
           <div className='container'>
             <div >
-                  <h1>laboratoryName</h1>
+                  <h1 className='uppercase'>{name}</h1>
                   <div className="underline my-4"></div>
             </div>
             <div className='laboratory-items row '>
@@ -42,7 +42,6 @@ function Laboratory() {
             </div>
           </div>
         </main>
-        }
     })}
     </>
   )

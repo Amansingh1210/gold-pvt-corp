@@ -18,12 +18,12 @@ function About() {
                 <div className="container banner-underline"></div>
             </div>
             <div className='container d-md-flex gap-5 mt-5'>
-                <div className='position-relative'>
-                    <button className="cap-btn btn-primary">About us</button>
-                    <img src={profile} className="img-sm-fluid" alt="Profile" /> {/* Added img-fluid for responsiveness */}
-                </div>
+                <div className='position-relative '>
+                    <img src={profile} className='img-about' alt='about' /> 
+                    <button className="cap-btn btn-primary img-about">About us</button>
+                </div> 
                 <div>
-                    <p className='about-text overflow-hidden'>We feel pleasure to introduce ourselves as one of the leading and competitive manufacturer, supplier, exporters of various type of lab equipments for Mechanical Engineering, Automobile Engineering, Civil Engineering & Workshop Lab Equipments in India. We Universal Engineering Equipments Corpn. was founded eighteen years ago in the year of 2000 at the city of Tajmahal Agra. The firm was established under the amazing supervision of our leader Mr. Praveen Kumar Uppal. We work with modern technology for the production of educational engineering equipments in favor of customer interest. We also serve repairing & maintenance services for our products. Our all products are manufactured under the phenomenal supervision of our highly experienced engineers and they make sure to provide the best material as per industrial requirements. We also have various service centers across the Indian Subcontinent.</p>
+                    <p className='about-text '>We feel pleasure to introduce ourselves as one of the leading and competitive manufacturer, supplier, exporters of various type of lab equipments for Mechanical Engineering, Automobile Engineering, Civil Engineering & Workshop Lab Equipments in India. We Universal Engineering Equipments Corpn. was founded eighteen years ago in the year of 2000 at the city of Tajmahal Agra. The firm was established under the amazing supervision of our leader Mr. Praveen Kumar Uppal. We work with modern technology for the production of educational engineering equipments in favor of customer interest. We also serve repairing & maintenance services for our products. Our all products are manufactured under the phenomenal supervision of our highly experienced engineers and they make sure to provide the best material as per industrial requirements. We also have various service centers across the Indian Subcontinent.</p>
                 </div>
             </div>
         </main>
