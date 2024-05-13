@@ -7,6 +7,7 @@ import Gallery from './Components/Gallery'
 import About from './Components/About'
 import Footer from './Components/Footer'
 import Team from './Components/Team'
+import Mission from './Components/Mission'
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <Banner /> */}
       {/* <Gallery /> */}
       {/* <About /> */}
-      <Team />
+      {/* <Team /> */}
+      <Mission />
       <Footer />
     </>
   )
