@@ -10,10 +10,18 @@ const Footer = () => {
         <div className="container-fluid py-4 f1-container">
           <div className="row d-md-flex gap-4">
             <div className="p-5 col-md-3">
-              <h5 className="widget-title ">
-                <img src="" alt="" className="size-img" />
-                <span></span>
-              </h5>
+              <div className="logo-color">
+                <p className="nav-logo logo-font fs-6 fw-normal">
+                  GOLDSYS ENGINEERING PRIVATE LIMITED
+                  <br />
+                </p>
+                <p className="text-white logo-font">
+                  Manufacturer of Technical Education Equipments
+                  <br />
+                  GSTIN NO. 09AAKCG9297N1ZG
+                </p>
+                <br />
+              </div>
               <p className="f1-para">
                 {" "}
                 We feel pleasure to introduce ourselves as one of the leading
@@ -113,10 +121,8 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-4 ">
                 <p className="f2-para">
-                  "Powered By "
-                  <Link to="http://www.thenetlinker.com" >
-                    NetLinker
-                  </Link>
+                  "Powered By " +917417895532
+                  
                 </p>
               </div>
             </div>

@@ -38,14 +38,14 @@ const Navbar = ({ products , getId }) => {
             <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
               <li className="nav-item">
                 <Link
-                  className=" text-dark link-color-hover px-3 nav-link active fs-3"
+                  className=" text-dark link-color-hover px-3 nav-link active fs-4"
                   aria-current="page"
                   to="/"
                 >
                   HOME
                 </Link>
               </li>
-              <li className="nav-item dropdown fs-3">
+              <li className="nav-item dropdown fs-4">
                 <Link
                   className="nav-link dropdown-toggle  text-dark link-color-hover px-3"
                   to="/"
@@ -78,7 +78,7 @@ const Navbar = ({ products , getId }) => {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item dropdown fs-3">
+              <li className="nav-item dropdown fs-4">
                 <Link
                   className="nav-link dropdown-toggle  text-dark link-color-hover px-3"
                   to="/"
@@ -100,7 +100,7 @@ const Navbar = ({ products , getId }) => {
               </li>
               <li className="nav-item">
                 <Link
-                  className="nav-link active fs-3  text-dark link-color-hover px-3"
+                  className="nav-link active fs-4  text-dark link-color-hover px-3"
                   aria-current="page"
                   to="/quality"
                 >
@@ -109,7 +109,7 @@ const Navbar = ({ products , getId }) => {
               </li>
               <li className="nav-item">
                 <Link
-                  className="nav-link active fs-3  text-dark link-color-hover px-3"
+                  className="nav-link active fs-4  text-dark link-color-hover px-3"
                   aria-current="page"
                   to="/contact"
                 >
@@ -119,17 +119,17 @@ const Navbar = ({ products , getId }) => {
             </ul>
             <ul className="d-flex justify-content-evenly">
               <li className="dot p-2">
-                <Link to="https://www.google.com/" target="blank" className="link-hover fs-3 link-color ">
+                <Link to="https://www.google.com/" target="blank" className="link-hover fs-4 link-color ">
                   <TiSocialGooglePlus />
                 </Link>
               </li>
               <li className="dot p-2">
-                <Link to="https://www.facebook.com/" target="blank" className="link-hover fs-3  link-color">
+                <Link to="https://www.facebook.com/" target="blank" className="link-hover fs-4  link-color">
                   <FaFacebook />
                 </Link>
               </li>
               <li className="dot p-2">
-                <Link to="https://twitter.com/" target="blank" className="link-hover fs-3  link-color">
+                <Link to="https://twitter.com/" target="blank" className="link-hover fs-4  link-color">
                   <FaTwitter />
                 </Link>
               </li>
