@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Navbar = ({ products , getId }) => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-blue h-5">
+      <nav className="navbar navbar-expand-lg bg-blue h-5" id="0">
         <div className="container">
           <Link className="navbar-brand" to="/">
             <div className="logo-color">

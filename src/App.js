@@ -14,6 +14,7 @@ import Certifications from './Components/Certifications'
 import laboratory from './Data/laboratory';
 import Quality from './Components/Quality'
 import Contact from './Components/Contact'
+import Scroller from './Components/Scroller'
 
 function App() {
   const [currentId,setCurrentId] =useState(0)
@@ -24,6 +25,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar products={laboratory} getId={getId} />
+        <Scroller />
         <Routes>
           <Route path="/" element={
           <div>

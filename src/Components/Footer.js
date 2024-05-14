@@ -43,9 +43,9 @@ const Footer = () => {
                     <img src={prod1} alt="" className="footer-img" />
                   </div>
                   <div className="thumb-content list-dec">
-                    <Link to="/" title="Civil Engineering">
+                    <a href="#0" title="Civil Engineering">
                       COMPRESSION TESTING MACHINE{" "}
-                    </Link>
+                    </a>
                     <br />
                     <span className="span-color">
                       {" "}
@@ -58,9 +58,9 @@ const Footer = () => {
                     <img src={prod2} alt="" className="footer-img" />
                   </div>
                   <div className="thumb-content">
-                    <Link to="/" title="Computer science">
+                    <a href="#0" title="Computer science">
                       PELTON WHEEL TURBINE TEST RIG{" "}
-                    </Link>
+                    </a>
                     <br></br>
                     <span className="span-color">
                       {" "}
@@ -73,9 +73,9 @@ const Footer = () => {
                     <img src={prod3} alt="" className="footer-img" />
                   </div>
                   <div className="thumb-content">
-                    <Link to="/" title="Sociology">
+                    <a href="#0" title="Sociology">
                       REFRIGERATION TEST RIG{" "}
-                    </Link>
+                    </a>
                     <br></br>
                     <span className="span-color">
                       {" "}
@@ -89,27 +89,23 @@ const Footer = () => {
             <div className="p-5 col-md-3">
               <h4 className="widget-title ">Contact Details</h4>
               <div className="text-widget">
-                <p className="f-para">Universal Engineering Equipments Corp.</p>
+                <p className="f-para">Goldsys Engineering Private Limited.</p>
                 <p className="f-para">
-                  <i className="fa-solid fa-location-dot"></i> &nbsp; Sales Office: 146 Sec-9 Awas Vikas
+                  <i className="fa-solid fa-location-dot"></i> &nbsp; Head Office: 146 Sec-9 Awas Vikas
                   Colony, Sikandra, Agra-282007 (U.P.)
                 </p>
                 <p className="f-para">
-                  <i className="fa-solid fa-location-dot"></i> &nbsp; Branch Office: 302,7-1-275 AMRAVATI
-                  RESIDENCY OPP YALLAMA TEMPLE BALKAMPET SECUNDERBAD
+                  {" "}
+                  <i className="fa-solid fa-phone"></i>
+                  &nbsp;Phone Number : 09760695881
                 </p>
                 <p className="f-para">
                   {" "}
                   <i className="fa-solid fa-phone"></i>
-                  &nbsp;Phone Number : 0562-3590517
+                  &nbsp;Mobile Number : +91-09897326536
                 </p>
                 <p className="f-para">
-                  {" "}
-                  <i className="fa-solid fa-phone"></i>
-                  &nbsp;Mobile Number : +91-8171410007
-                </p>
-                <p className="f-para">
-                  <i className="fa-solid fa-envelope"></i> &nbsp;Email - rht_uppal@rediffmail.com
+                  <i className="fa-solid fa-envelope"></i> &nbsp;Email - goldsysengineering@gmail.com
                 </p>
                 <p className="f-para"></p>
               </div>

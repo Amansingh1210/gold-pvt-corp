@@ -388,3 +388,27 @@
 .card{
   width: 340px;
 }
+
+
+.scroll {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: #1e1c1c;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.scroll-hover:hover {
+  background-color: #2196f3;
+}
+
+.icon-color {
+  color: aliceblue;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+}
