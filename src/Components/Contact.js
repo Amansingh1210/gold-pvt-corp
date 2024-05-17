@@ -23,10 +23,10 @@ function Contact() {
         <p className='text-start'>All you want know</p>
       </div>
       <div className='container logo-center  my-5'>
-          <div class="card">
-            <div class="card-body">
+          <div className="card">
+            <div className="card-body">
               <FaMapMarkerAlt size={24} />
-              <h5 class="card-title my-3">Head Office</h5>
+              <h5 className="card-title my-3">Head Office</h5>
               <p>46 Sec-9 Awas Vikas Colony, Sikandra, Agra-282007 (U.P.)</p>
               <p>Phone No - 09760695881</p>
               <p>Mobile No - 09897326536</p>

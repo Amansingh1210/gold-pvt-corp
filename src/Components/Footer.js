@@ -2,7 +2,6 @@
 import prod1 from "../Data/images/chemistry_facts.jpg";
 import prod2 from "../Data/images/Chemical_Analysis.jpg";
 import prod3 from "../Data/images/chemical_bonding.jpg";
-import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
@@ -91,8 +90,8 @@ const Footer = () => {
               <div className="text-widget">
                 <p className="f-para">Goldsys Engineering Private Limited.</p>
                 <p className="f-para">
-                  <i className="fa-solid fa-location-dot"></i> &nbsp; Head Office: 146 Sec-9 Awas Vikas
-                  Colony, Sikandra, Agra-282007 (U.P.)
+                  <i className="fa-solid fa-location-dot"></i> &nbsp; Head Office: 42 Sec-9 Awas Vikas
+                  Colony, bodla road, Sikandra, Agra-282007 (U.P.)
                 </p>
                 <p className="f-para">
                   {" "}

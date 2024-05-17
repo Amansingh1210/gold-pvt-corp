@@ -10,7 +10,7 @@ function Gallery() {
           <div className='row ml-5'>
           {gallery.map((index) => {
               return <div key={index} className='container col-md-4 my-4 px-1'>
-                  <img src={index} alt='gallery' className='contain shadow-sm shadow-lg-hover custom-hover' cover />
+                  <img src={index} alt='gallery' className='contain shadow-sm shadow-lg-hover custom-hover' />
                   </div>
           })}
           </div>

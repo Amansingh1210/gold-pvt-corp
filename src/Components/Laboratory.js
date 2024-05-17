@@ -6,12 +6,13 @@ import  laboratory  from '../Data/laboratory';
 
 function Laboratory({currentId}) {
     const nav = useNavigate();
+  // eslint-disable-next-line
+  let filtered = (laboratory.filter((obj)=> obj.id == currentId));
 
-    const filteredObject = laboratory.filter(obj => obj.id == currentId);
-    console.log(filteredObject);
+
     return (
         <>
-            {filteredObject.map((lab)=>{
+        {filtered.map((lab)=>{
         const {id,name,items} = lab
       return <main key={id} className='d-flex flex-column gap-4 '>
           <div className='fluid-contanier bg-dark text-center text-white py-5 px-5'>
@@ -21,7 +22,7 @@ function Laboratory({currentId}) {
                   </div>
                   <nav>
                       <ol className="list-none d-flex gap-3 align-items-center cursor-pointer">
-                          <li className="fs-4 text-hover" onClick={()=>nav('/')}>Home</li>
+                <li className="fs-4 text-hover" onClick={()=>nav('/')}>Home</li>
                           <li className="">/</li>
                           <li className="fs-4 text-hover ">{name}</li>
                       </ol>
