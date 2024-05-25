@@ -24,11 +24,11 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar products={laboratory} getId={getId} />
-        <Scroller />
+          <Navbar products={laboratory} getId={getId} />
         <Routes>
-          <Route path="/" element={
+          <Route path="" element={
           <div>
+            <Scroller />
             <Slider />
             <Products />
             <Banner />

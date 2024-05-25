@@ -19,8 +19,13 @@
   .img-about{
     display: none;
   }
+  .labFont{
+    font-size: 1rem;
+  }
+  .labFont-1{
+    font-size: 0.80rem;
+  }
 }
-
 .nav-h {
   height: 105px;
   background-color: rgb(253, 253, 253);

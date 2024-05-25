@@ -18,13 +18,13 @@ function Laboratory({currentId}) {
           <div className='fluid-contanier bg-dark text-center text-white py-5 px-5'>
               <div className='d-flex flex-row justify-content-between align-items-center '>
                   <div>
-                      <h1 className='uppercase'>{name}</h1>
+              <h1 className='uppercase labFont'>{name}</h1>
                   </div>
                   <nav>
                       <ol className="list-none d-flex gap-3 align-items-center cursor-pointer">
                 <li className="fs-4 text-hover" onClick={()=>nav('/')}>Home</li>
                           <li className="">/</li>
-                          <li className="fs-4 text-hover ">{name}</li>
+                          <li className="md-fs-4 text-hover labFont-1">{name}</li>
                       </ol>
                   </nav>
               </div>
