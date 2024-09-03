@@ -8,7 +8,7 @@ function Laboratory({currentId}) {
     const nav = useNavigate();
   // eslint-disable-next-line
   let filtered = (laboratory.filter((obj)=> obj.id == currentId));
-
+  
 
     return (
         <>
@@ -38,7 +38,8 @@ function Laboratory({currentId}) {
             </div>
             <div className='laboratory-items row '>
                   {items.map((item)=>{
-                    return <div key={item} className='col-md-4 my-3 '><p className='lab-item green'>{item}</p></div>
+                    // console.log(item.substring(31));
+                    return <div key={item} className=' machine-log col-md-4 my-3 '><img src={item.src} alt='catalog                                                                                                                                                                                                                                                                                                ' className='lab-item ' /> <p className='machine-size'>{item.name}</p></div>
                   })}
             </div>
           </div>

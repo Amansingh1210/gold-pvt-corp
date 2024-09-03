@@ -14,6 +14,7 @@ import Certifications from './Components/Certifications'
 import laboratory from './Data/laboratory';
 import Quality from './Components/Quality'
 import Contact from './Components/Contact'
+import Clients from './Components/Clients'
 import Scroller from './Components/Scroller'
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
   const getId = (e) => {
     setCurrentId(e.target.id)
   }
+
+
   return (
     <>
       <BrowserRouter>
@@ -30,9 +33,10 @@ function App() {
           <div>
             <Scroller />
             <Slider />
-            <Products />
+            <Products  interval={3000}/>
             <Banner />
             <Gallery />
+            <Certifications />
           </div>
           } />
           <Route path='/about' element={<About />} />
@@ -40,6 +44,7 @@ function App() {
           <Route path='/team' element={<Team />} />
           <Route path='/certifications' element={<Certifications />} />
           <Route path='/quality' element={<Quality />} />
+          <Route path='/clients' element={<Clients />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/lab' element={<Laboratory currentId={currentId}/>} />
         </Routes>

@@ -1,7 +1,8 @@
-// import logo from "";
 import prod1 from "../Data/images/chemistry_facts.jpg";
 import prod2 from "../Data/images/Chemical_Analysis.jpg";
 import prod3 from "../Data/images/chemical_bonding.jpg";
+import logo from '../Data/images/logo.png';
+
 const Footer = () => {
   return (
     <>
@@ -10,11 +11,12 @@ const Footer = () => {
           <div className="row d-md-flex gap-4">
             <div className="p-5 col-md-3">
               <div className="logo-color">
-                <p className="nav-logo logo-font fs-6 fw-normal">
+                {/* <p className="nav-logo logo-font fs-6 fw-normal">
                   GOLDSYS ENGINEERING PRIVATE LIMITED
                   <br />
-                </p>
-                <p className="text-white logo-font">
+                </p> */}
+                <img src={logo} className="nav-logo" />
+                <p className="text-white logo-font pt-4">
                   Manufacturer of Technical Education Equipments
                   <br />
                   GSTIN NO. 09AAKCG9297N1ZG

@@ -1,8 +1,7 @@
 import { TiSocialGooglePlus } from "react-icons/ti";
 import { FaFacebook, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
-
+import logo from '../Data/images/logo.png';
   
 const Navbar = ({ products , getId }) => {
   return (
@@ -11,7 +10,7 @@ const Navbar = ({ products , getId }) => {
         <div className="container">
           <Link className="navbar-brand" to="/">
             <div className="logo-color">
-              <p className="nav-logo logo-font fs-6 fw-normal">
+              {/* <p className="nav-logo logo-font fs-6 fw-normal">
                 GOLDSYS ENGINEERING PRIVATE LIMITED
                 <br />
               </p>
@@ -19,7 +18,8 @@ const Navbar = ({ products , getId }) => {
                   Manufacturer of Technical Education Equipments
                   <br />
                   GSTIN NO. 09AAKCG9297N1ZG
-                </p>
+                </p> */}
+                <img src={logo} className="nav-logo" />
               <br />
             </div>
           </Link>
@@ -97,6 +97,15 @@ const Navbar = ({ products , getId }) => {
                     </li>
                   ))}
                 </ul>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link active fs-4  text-dark link-color-hover px-3"
+                  aria-current="page"
+                  to="/clients"
+                >
+                  Clients
+                </Link>
               </li>
               <li className="nav-item">
                 <Link
