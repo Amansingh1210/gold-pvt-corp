@@ -14,7 +14,7 @@ function Team() {
                 </div>
                   <nav>
                       <ol className="list-none d-flex gap-3 align-items-center cursor-pointer">
-                          <li className="fs-4 text-hover">Home</li>
+                          <li className="fs-4 text-hover" onClick={() => nav('/')}>Home</li>
                           <li className="">/</li>
                           <li className="fs-4 text-hover">Our team</li>
                       </ol>
@@ -33,18 +33,16 @@ function Team() {
                       <p className='team-h'>THE MAIN TEAM</p>
                       <p>1. Er. Rahul Uppal (Proprietor)</p>
                       <p>2. Er. Rohit Uppal (B.Tech (E&C))</p>
-                      <p>3. Er. Rohan Uppal (B.tech (MEch) & M.B.A.)</p>
                   </div>
                   <div className='supporting-team'>
-                      <p className='team-h'>THE MAIN TEAM</p>
-                      <p>Engineers- 05 No.</p>
-                      <p>2. Er. Rohit Uppal (B.Tech (E&C))</p>
-                      <p>3. Er. Rohan Uppal (B.tech (MEch) & M.B.A.)</p></div>
+                      <p className='team-h'>THE SALE HEAD</p>
+                      <p>1. Rajiv Srivastava</p>
+                      <p>2. Vishal Pandey</p></div>
                   <div className='r&d-team'>
-                      <p className='team-h'>THE MAIN TEAM</p>
-                      <p>1. Er. Rahul Uppal (Proprietor)</p>
-                      <p>2. Er. Rohit Uppal (B.Tech (E&C))</p>
-                      <p>3. Er. Rohan Uppal (B.tech (MEch) & M.B.A.)</p></div>
+                      <p className='team-h'>THE ACCOUNT TEAM</p>
+                      <p>1. Sachin Manshani</p>
+                      <p>2. Harsh Mathur</p>
+                    </div>
               </div>
           </div>
           <div className='container '>

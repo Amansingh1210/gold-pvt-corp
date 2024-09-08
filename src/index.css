@@ -109,6 +109,8 @@
   background-repeat: no-repeat;
 }
 
+
+
 .contain{
   background-size: cover;
 }
@@ -332,12 +334,32 @@
 }
 
 .nav-logo {
-  width: 170px;
-  height: 105px;
+  width: 210px;
+  height: 100px;
+}
+.nav-item{
+  size: 10px;
 }
 
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.logo_and_name{
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.text-blue{
+  color: #388FDD;
+}
 .logo-font {
   font-size: 12px;
+}
+.contact-btn{
+  padding-right: 100px;
+  margin-bottom: 30px;
 }
 
 .custom-bg {
@@ -412,6 +434,8 @@
   font-weight:  600;
 }
 
+/* catalogue download */
+
 .catalogue-download{
   margin:  1.5rem;
   display: flex;
@@ -421,10 +445,11 @@
 
 .catalogue-download-button {
   font-size: 25px;
-  background: red;
+  background: #f1f1f1;
   padding: 10px;
   border: none;
-  font-family: 'Courier New', Courier, monospace;
+  border-bottom: 5px solid #8a8887;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* css for product slider */
@@ -452,4 +477,11 @@
   width: 100%;
   border-radius: 8px; /* Optional: for rounded corners */
   object-fit: cover; /* Keeps image aspect ratio */
+}
+
+
+/*  gallery */
+
+.gallery-border{
+  border:  3px double black;
 }

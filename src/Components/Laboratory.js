@@ -39,7 +39,7 @@ function Laboratory({currentId}) {
             <div className='laboratory-items row '>
                   {items.map((item)=>{
                     // console.log(item.substring(31));
-                    return <div key={item} className=' machine-log col-md-4 my-3 '><img src={item.src} alt='catalog                                                                                                                                                                                                                                                                                                ' className='lab-item ' /> <p className='machine-size'>{item.name}</p></div>
+                    return <div key={item} className=' machine-log col-md-4 my-3 '><img src={item.src} alt='catalog' className='lab-item ' /> <p className='machine-size'>{item.name}</p></div>
                   })}
             </div>
           </div>

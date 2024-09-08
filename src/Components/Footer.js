@@ -98,12 +98,12 @@ const Footer = () => {
                 <p className="f-para">
                   {" "}
                   <i className="fa-solid fa-phone"></i>
-                  &nbsp;Phone Number : 09760695881
+                  &nbsp;Phone Number : +91-9368801911
                 </p>
                 <p className="f-para">
                   {" "}
                   <i className="fa-solid fa-phone"></i>
-                  &nbsp;Mobile Number : +91-09897326536
+                  &nbsp;Mobile Number : +91-9997185959
                 </p>
                 <p className="f-para">
                   <i className="fa-solid fa-envelope"></i> &nbsp;Email - goldsysengineering@gmail.com

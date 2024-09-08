@@ -27,7 +27,7 @@ function Contact() {
             <div className="card-body">
               <FaMapMarkerAlt size={24} />
               <h5 className="card-title my-3">Head Office</h5>
-              <p>46 Sec-9 Awas Vikas Colony, Sikandra, Agra-282007 (U.P.)</p>
+              <p>42 Sec-9 Awas Vikas Colony, Sikandra, Agra-282007 (U.P.)</p>
               <p>Phone No - 09760695881</p>
               <p>Mobile No - 09897326536</p>
             <p>Email - goldsysengineering@gmail.com</p>
