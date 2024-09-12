@@ -43,6 +43,16 @@ import log42 from "../Data/images/WORKSHOP lab/img1.jpg";
 import log43 from "../Data/images/WORKSHOP lab/img2.jpg";
 import log44 from "../Data/images/WORKSHOP lab/img3.jpg";
 import log45 from "../Data/images/WORKSHOP lab/img4.jpg";
+import log46 from "../Data/images/GARAGE LAB/img1.jpg";
+import log47 from "../Data/images/GARAGE LAB/img2.jpg";
+import log48 from "../Data/images/GARAGE LAB/img3.jpg";
+import log49 from "../Data/images/GARAGE LAB/img4.jpg";
+import log50 from "../Data/images/GARAGE LAB/img5.jpg";
+import log51 from "../Data/images/GARAGE LAB/img6.jpg";
+import log52 from "../Data/images/GARAGE LAB/img7.jpg";
+import log53 from "../Data/images/GARAGE LAB/img8.jpg";
+import log54 from "../Data/images/GARAGE LAB/img9.jpg";
+import log55 from "../Data/images/GARAGE LAB/img10.jpg";
 
 const laboratory = [
   {
@@ -114,12 +124,18 @@ const laboratory = [
     },
     {
       id: 5,
-      name: "workshop lab",
+      name: "workshop",
       items: [
         { src: log42, name: "MILLING ENGINE" },
         { src: log43, name: "PEDESTAL GRINDER" },
         { src: log44, name: "CNC MILLING MACHINE" },
         { src: log45, name: "DRILLING MACHINE" },
+        { src: log47, name: "SHAPER MACHINE" },
+        { src: log53, name: "GEARED HEAD MEDIUM DUTY LATHE MACHINE" },
+        { src: log54, name: "AIR OLASMA CUTTING" },
+        { src: log55, name: "WHEEK ALIGNMENT MACHINE" },
+        { src: log50, name: "TOOL AND CUTTER GRINDER" },
+        { src: log51, name: "OA VERTICAL ONE FEED" },
       
       ],
     },
